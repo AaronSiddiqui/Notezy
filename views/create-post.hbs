@@ -1,0 +1,130 @@
+<div id="navwrap">
+  {{!-- Wrap for navigating back and forth through pervious pages etc --}}
+  <div class="container-fluid">
+
+    {{!-- container to hold page name and breadcrumb path --}}
+    <div class="row" style="path">
+
+      <div class="col-xs-2">
+        {{!-- college --}}
+        <a href="#"><h1 class="title">Create Post</h1></a>
+      </div>
+
+      <div class="col-xs-10">
+        <ul class="breadcrumb">
+          <div class="row">
+            <div class="col-lg-3">
+              {{!-- College crumb --}}
+              <div class="centered">
+                <li class="item home">
+                  {{!-- Link back to College list --}}
+                  <a id="collegeBack" title="Back to Courses">
+                    <button class="button content">
+                      <span>
+                        <h5 id="collegeAbbr">
+                          {{!-- College Abbrebiation --}}
+                        </h5>
+                      </span>
+                    </button>
+                  </a>
+                </li>
+              </div>
+            </div>
+
+            <div class="col-lg-3">
+              {{!-- Course crumb --}}
+              <div class="centered">
+                <li class="item home">
+                  {{!-- Link back to Course Modules --}}
+                  <a id="courseBack" title="Back to Modules">
+                    <button class="button content">
+                      <span>
+                        <h5 id="courseName">
+                          {{!-- Course Code --}}
+                        </h5>
+                      </span>
+                    </button>
+                  </a>
+                </li>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              {{!-- Module crumb --}}
+              <div class="centered">
+                <li class="item home">
+                  {{!-- Link Back to Module Posts --}}
+                  <a id="modBack" title="Back to Posts">
+                    <button class="button content">
+                      <span>
+                        <h5 id="modCode">
+                          {{!-- Module Code --}}
+                        </h5>
+                      </span>
+                    </button>
+                  </a>
+
+                </li>
+              </div>
+            </div>
+            
+              </div>
+            </div>
+          </div>
+        </ul>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<div class="container-fluid">
+  <div class="well col-lg-10 col-lg-offset-1">
+    <div class="row col-lg-10 col-lg-offset-1">
+      <form class="form-horizontal" role="form" id="postForm">
+        <div class="row">
+          <div class="form-group">
+            <div class="col-lg-12">
+              <textarea class="form-control required" style="min-width: 100%" rows="1" placeholder="Title" id="inputPostTitle"></textarea>
+            </div>
+          </div>
+        </div>
+        <!---Title--->
+
+        <div class="row">
+          <div class="form-group">
+            <div class="col-lg-12">
+              <textarea class="form-control required" style="min-width: 100%" rows="5" placeholder="Desciption" id="inputPostDesc"></textarea>
+            </div>
+          </div>
+        </div>
+        <!---Description--->
+
+        <div class="row">
+          <div class="form-group">
+            <div class="col-lg-3">
+              <label class="btn btn-block btn-info">
+                <span class="glyphicon glyphicon-paperclip">
+                  <input type="file" id="inputPostFile" multiple hidden>
+                </span> Attach Files
+              </label>
+            </div>
+            <div class="col-lg-7">
+            </div>
+            <div class="col-lg-2">
+              <a href="#" data-toggle="popover" data-placement="bottom" data-content="Missing something... Perhaps a title or description" id="btn-post">
+                <button type="text" class="btn btn-warning btn-lg">Post</button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!---Buttons--->
+
+      </form>
+    </div>
+  </div>
+</div>
+
+<script src="/javascripts/create-post.js"></script>

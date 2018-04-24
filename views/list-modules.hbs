@@ -1,0 +1,68 @@
+<div id="navwrap">
+  {{!-- Wrap for navigating back and forth through pervious pages etc --}}
+  <div class="container-fluid">
+
+    {{!-- container to hold page name and breadcrumb path --}}
+    <div class="row" style="path">
+
+      <div class="col-xs-2">
+        {{!-- college --}}
+        <a class="navbar-brand" href="#">
+          <b class="title">Modules</b>
+        </a>
+      </div>
+
+
+      <div class="col-xs-10">
+        <ul class="breadcrumb">
+          <div class="row">
+            <div class="col-lg-3">
+              {{!-- College crumb --}}
+              <div class="centered">
+                <li class="item home">
+                  {{!-- Link back to College list --}}
+                  <a id="collegeBack" title="Back to Courses">
+                    <button class="button content">
+                      <span>
+                        <h5 id="collegeAbbr">
+                          {{!-- College Abbrebiation --}}
+                        </h5>
+                      </span>
+                    </button>
+                  </a>
+                </li>
+              </div>
+            </div>
+
+            <div class="col-lg-3">
+              {{!-- Course crumb --}}
+              <div class="centered">
+                <li class="item home">
+                  {{!-- Link back to Course Modules --}}
+                  <a id="courseBack" title="Back to Modules">
+                    <button class="button content">
+                      <span>
+                        <h5 id="courseName">
+                          {{!-- Course Code --}}
+                        </h5>
+                      </span>
+                    </button>
+                  </a>
+                </li>
+              </div>
+            </div>
+            
+          </div>
+        </ul>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="bottompagewrap">
+  <div class="panel-group" id="modules">
+  </div>
+</div>
+
+  <script src="/javascripts/list-modules.js"></script>

@@ -1,0 +1,68 @@
+#bottompagewrap {
+	/* background: url(../img/bg01.jpg) no-repeat center top; */
+	background-color:rgb(53, 23, 94);
+	margin-top: 0px;
+    padding: 30px;
+    margin-bottom: 0px;
+    border-radius: 10px;  
+	background-attachment: relative;
+	background-position: center center;
+	/*min-height: 650px;*/
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#contentwrap {
+  background-color:rgb(17, 16, 16);
+  color:rgb(36, 31, 31);
+/*padding: 100px 100px 100px 100px;*/
+background-attachment: relative;
+background-position: center center;
+/*min-height: 650px;*/
+ /* max-width: 100%;
+  height: auto;*/
+  margin: 0px;
+  padding: 10px;
+border-radius: 20px;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.content {
+  background-color:rgb(231, 231, 231);
+  color:rgb(36, 31, 31);
+  /*padding: 100px 100px 100px 100px;*/
+  background-attachment: relative;
+  background-position: center center;
+  /*min-height: 650px;*/
+ /* max-width: 100%;*/
+  height: auto;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height:100%;
+  border-radius: 5px;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}

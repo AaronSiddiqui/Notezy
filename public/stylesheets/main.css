@@ -1,0 +1,446 @@
+/*
+ * Author: Carlos Alvarez
+ * URL: http://alvarez.is
+ *
+ * Project Name: FLATTY - Free Bootstrap 3 Theme
+ * Version: 1.0
+ * URL: http://blacktie.co
+ */
+
+body {
+  background-color: #f2f2f2;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+.votes {
+    height: 25px;
+    width: 25px;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+}
+
+/* Titles */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: #333;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+h1.college {
+    font-weight: 1000;
+    color: #ffffff;
+    letter-spacing: 6px;
+}
+
+h2.college {
+    font-weight: 1000;
+    color: #ffffff;
+    letter-spacing: 6px;
+}
+
+h3 {
+	color: #95a5a6;
+    font-weight: 400;
+    
+}
+
+h4 {
+	color: #95a5a6;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+h4.course {
+	color: #222222;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+h3.course {
+	color: #222222;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+/* Paragraph & Typographic */
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+
+p.college {
+    font-weight: 1000;
+    color: #000000;
+}
+
+.lefted{
+    text-align: left;
+}
+
+.centered {
+    text-align: center;
+}
+
+/* Links */
+a {
+    color: #3498db;
+    word-wrap: break-word;
+
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a:hover,
+a:focus {
+    color: #7b7b7b;
+    text-decoration: none;
+    outline: 0;
+}
+
+a:before,
+a:after {
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+ hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.navbar-default {
+	background-color: #3498db;
+	border-color: transparent;
+}
+
+.navbar-default .navbar-brand {
+	color: white;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: white;
+}
+
+/* Helpers */
+
+.lefttitle {
+    margin-left: 40px;
+    color: rgba(67, 38, 196, 0.726);
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.lm {
+    margin: 10px;
+}
+
+.llborder {
+    border: 10px;
+}
+
+.mt {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.form-control {
+	height: 42px;
+	font-size: 18px;
+	width: 280px;
+}
+
+i {
+	margin: 8px;
+	color: #3498db; 
+}
+
+
+.responsive{
+    width: 100%;
+    height: auto;
+}
+
+.content {
+        background-color:rgb(231, 231, 231);
+        color:rgb(36, 31, 31);
+        /*padding: 100px 100px 100px 100px;*/
+        background-attachment: relative;
+        background-position: center center;
+        /*min-height: 650px;*/
+       /* max-width: 100%;*/
+        height: auto;
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        height:100%;
+        border-radius: 5px;
+        -webkit-background-size: 100%;
+        -moz-background-size: 100%;
+        -o-background-size: 100%;
+        background-size: 100%;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+
+.imgborder{
+    border-radius: 25px;
+}
+
+.collegeborder {
+    
+    border-radius: 25px;
+}
+
+.maincarousel {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+}
+
+
+#pagewrap {
+	/* background: url(../img/bg01.jpg) no-repeat center top; */
+	background-color: #503535;
+	margin-top: -20px;
+    padding-top:30px;
+    padding: 30px;
+    border-radius: 10px;  
+	background-attachment: relative;
+	background-position: center center;
+	/*min-height: 650px;*/
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.post{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: #333;
+}
+
+.title {
+    /* font-family: 'Raleway', Helvetica, Arial, sans-serif; */
+    font-size: 30px;
+    line-height: 30px;
+    color:rgba(0, 0, 0, 0.623);
+}
+
+#bottompagewrap {
+	/* background: url(../img/bg01.jpg) no-repeat center top; */
+	background-color: #f2f2f2;
+	margin-top: 0px;
+    padding: 30px;
+    margin-bottom: 0px;
+    border-radius: 10px;  
+	background-attachment: relative;
+	background-position: center center;
+	/*min-height: 650px;*/
+    width: 100%;
+    height: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#collegeButton {
+    background-color:#222222;
+    color: #f2f2f2;
+	padding: 15px;
+  background-attachment: relative;
+  text-align: center;
+	position: center;
+	/*min-height: 650px;*/
+   /* max-width: 100%;
+    height: auto;*/
+    margin: 40px;
+    /* padding: 10px; */
+	border-radius: 15px;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#collegeButton h1{
+  color: #f2f2f2
+}
+
+#contentwrap {
+    background-color:#ed9c28;
+    color:#222222;
+	background-attachment: local;
+	background-position: center center;
+    margin: 0px;
+    padding: 10px;
+	border-radius: 10px;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#comment {
+    background-color:rgb(179, 179, 179);
+	background-attachment: local;
+	background-position: center center;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+	border-block-end-style: inset;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#collegewrap {
+    background-color:#222222;
+	background-attachment: relative;
+	background-position: center center;
+    margin-left: 0px;
+    margin-top: 10px;
+    padding: 4px;
+	border-radius: 15px;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#coursewrap {
+    background-color:rgb(184, 183, 183);
+    color:rgb(36, 31, 31);
+	/*padding: 100px 100px 100px 100px;*/
+	background-attachment: relative;
+	background-position: center center;
+    margin-left: 120px;
+    padding: 10px;
+	border-radius: 20px;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#sitepathwrap {
+    background-color:rgb(190, 155, 155);
+    color:rgb(115, 132, 179);
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-right: 30px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+	border-radius: 10px;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 2px;
+  background-color: #e4e1e1e5;
+  border: none;
+  color: rgb(230, 230, 230);
+  text-align: center;
+  padding: 0px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+[hidden] {
+    display: none !important;
+  }

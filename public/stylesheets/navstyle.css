@@ -1,0 +1,84 @@
+#navwrap {
+	/* background: url(../img/bg01.jpg) no-repeat center top; */
+	background-color: #f2f2f2;
+	/* margin-top: -20px; */
+    padding-top: 10px;
+    padding-left: 10px;
+    padding: 10px;
+    border-radius: 10px;  
+	background-attachment: relative;
+	background-position: center center;
+	/*min-height: 650px;*/
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#sitepathwrap {
+  /* background-color:rgb(190, 155, 155);
+  color:rgb(115, 132, 179); */
+  margin-top: 0px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+border-radius: 5px;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.pathstyle {
+    padding-left: 10px;
+    margin-left: 40px;
+}
+
+/* class for path for college through to notes */
+.path {
+  padding-bottom: 10px;
+}
+
+/* Breadcrumb layout */
+
+.breadcrumb {background: #f2f2f2; 
+  border: 0px solid; 
+  border-radius: 10px; 
+  display: block;}
+
+ul.breadcrumb {
+   /* padding: 10px 16px;
+  list-style: none;
+  background-color: #eee;  */
+  
+}
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+ul.breadcrumb li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}

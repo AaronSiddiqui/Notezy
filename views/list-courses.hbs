@@ -1,0 +1,49 @@
+<div id="navwrap">
+  {{!-- Wrap for navigating back and forth through pervious pages etc --}}
+  <div class="container-fluid">
+
+    {{!-- container to hold page name and breadcrumb path --}}
+    <div class="row" style="path">
+
+      <div class="col-lg-2">
+        {{!-- Courses --}}
+        <a class="navbar-brand" href="#">
+          <b class="title">Courses</b>
+        </a>
+      </div>
+
+
+      <div class="col-lg-10">
+        <ul class="breadcrumb">
+          <div class="row">
+            <div class="col-lg-3">
+              {{!-- College crumb --}}
+              <div class="centered">
+                <li class="item home">
+                  {{!-- Link back to College list --}}
+                  <a id="collegeBack" title="Back to Courses">
+                    <button class="button content">
+                      <span>
+                        <h5 id="collegeAbbr">
+                          {{!-- College Abbrebiation --}}
+                        </h5>
+                      </span>
+                    </button>
+                  </a>
+                </li>
+              </div>
+            </div>
+          </div>
+        </ul>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="bottompagewrap">
+  <div class="panel-group" id="courses">
+  </div>
+</div>
+
+<script src="/javascripts/list-courses.js"></script>

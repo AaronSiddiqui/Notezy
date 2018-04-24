@@ -1,0 +1,116 @@
+<div id="bottompagewrap" class="">
+
+
+  <div class="container">
+    <div class="jumbotron">
+      <div class="row">
+        <div class="row">
+          <div class="col-lg-3">
+            <img class="img-responsive img-rounded" src="https://x1.xingassets.com/assets/frontend_minified/img/users/nobody_m.original.jpg"
+              style="max-width: 150px" id="profile-pic">
+          </div>
+          <div class="col-lg-9">
+
+            <div class="row">
+              <h1 id="profile-name">
+
+              </h1>
+              <h3>Welcome! This is your profile page. You can check up on your messages, posts, comments and more...</h3>
+            </div>
+          </div>
+        </div>
+
+        
+      </div>
+    </div>
+<div class="">
+          <ul class="nav nav-pills nav-justified">
+            <li class="active">
+              <a data-toggle="pill" href="#posts-pil">Posts</a>
+            </li>
+            <li>
+              <a data-toggle="pill" href="#comments-pil">Comments</a>
+            </li>
+            <li>
+              <a data-toggle="pill" href="#messages-pil">Messages</a>
+            </li>
+            <li>
+              <a data-toggle="pill" href="#details-pil">Details</a>
+            </li>
+          </ul>
+
+          <div class="tab-content">
+            <div id="posts-pil" class="tab-pane fade in active">
+              <div class="container">
+                <div class="row mt">
+                  <div class="col-xs-12">
+                    <div class="list-group" id="user-posts">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div id="comments-pil" class="tab-pane fade">
+              <div class="container">
+                <div class="row mt">
+                  <div class="col-xs-12">
+                    <div class="list-group" id="user-comments">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div id="messages-pil" class="tab-pane fade">
+              <br>
+              <h3>Coming Soon...</h3>
+            </div>
+
+            <div name="#" id="details-pil" class="tab-pane fade">
+              {{!--
+              <div class="row mt col-xs-12" align="center">
+                <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#passwordModal">Change Password</button>
+              </div> --}}
+              <div class="row mt" align="center">
+                <label class="btn btn-warning">
+                  <input type="file" name="#" id="change-profilePic" hidden>Change Profile Picture
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+
+  </div>
+
+  <!--- Modal for changing password --->
+  <form id="change-password">
+    <div class="modal fade" id="passwordModal" role="dialog">
+      <div class="modal-dialog" role="document">
+
+        <div class="modal-content">
+          <div class="modal-header text-center">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Reset Password</h4>
+          </div>
+
+          <div class="modal-body" align="center">
+            <div class="row">
+              <label for="inputPassword" class="control-label">Old Password:</label>
+              <input type="password" class="form-control input-lg required" id="oldPassword" placeholder="Can you remember?">
+            </div>
+            <div class="row mt">
+              <label for="inputPassword" class="control-label">New Password:</label>
+              <input type="password" class="form-control input-lg required" id="newPassword" placeholder="New Password">
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button class="btn btn-warning">Confirm</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+
+  <script src="/javascripts/profile.js"></script>
