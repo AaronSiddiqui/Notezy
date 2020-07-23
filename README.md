@@ -27,7 +27,7 @@ Once the repo has been cloned, use npm to install the necessary modules.
 npm install
 ```
 
-Customise the environmental variables with a .env file to the root folder
+Customise the environmental variables with a .env file in the root folder
 
 ```
 PORT=
