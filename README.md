@@ -25,7 +25,7 @@ Once the repo has been cloned, use npm to install the necessary modules.
 npm install
 ```
 
-There is currenly only one environmental variable you can add in a .env file to the root folder
+There is currenly only one environmental variable you can add to a .env file to the root folder
 
 ```
 PORT=
@@ -39,7 +39,7 @@ To start the server locally, run the following command.
 npm start
 ```
 
-This wlll start the server on **http://localhost:PORT**. If PORT is not specified, it will default to **8689**.
+This wlll start the server on **http://localhost:PORT**. If PORT is not specified in the .env file, it will default to **8689**.
 
 ## Authors
 
