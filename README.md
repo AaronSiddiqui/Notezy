@@ -44,7 +44,7 @@ To start the server locally, run the following command.
 npm start
 ```
 
-This wlll start the server on **http://localhost:PORT**. If PORT is not specified in the .env file, it will default to **8689**.
+This wlll start the server on http://localhost:PORT. If PORT is not specified in the .env file, it will default to **8689**.
 
 ## Authors
 
