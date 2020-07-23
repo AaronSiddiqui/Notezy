@@ -2,6 +2,8 @@
 
 Notezy is a note-sharing platform that allows students from third-level Irish colleges to share notes amongst each. The aim was to provide a platform that would allow students to collaborate with each in relation to modules of their course that they were having difficulty in.
 
+This application is based on the MEJN (MongoDB, Express, jQuery, Node.js) technology stack.
+
 ## Visuals
 
 
@@ -29,7 +31,10 @@ There is currenly only one environmental variable you can add to a .env file to 
 
 ```
 PORT=
+MONGODB_URI=
 ```
+
+**Note:** MONGODB_URI is required to persist data to a MongoDB database.
 
 ## Starting a Local Server
 
