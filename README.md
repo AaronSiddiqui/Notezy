@@ -47,4 +47,4 @@ This applicaton was undertook by [Aaron Siddiqui](https://github.com/AaronSiddiq
 
 ## Project Status
 
-The project is no longer being contributed too, but feel free to make your own contributions to the code or use it for inspiration!
+The project is no longer being contributed too as of May 2018, but feel free to make your own contributions to the code or use it for inspiration!
