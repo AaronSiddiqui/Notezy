@@ -1,4 +1,6 @@
 var mongoose = require('mongoose');
-var connection = mongoose.connect('mongodb://mongodb3833sa:he8naf@danu7.it.nuigalway.ie:8717/mongodb3833');
+require('dotenv').config
+
+var connection = mongoose.connect(process.env.MONGODB_URI);
 
 exports.connection = connection;
