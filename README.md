@@ -6,7 +6,7 @@ Notezy is a note-sharing platform that allows students from third-level Irish co
 
 This application is based on the MEJN (MongoDB, Express, jQuery, Node.js) technology stack.
 
-## Visuals
+<!-- ## Visuals -->
 
 
 ## Prerequisites
